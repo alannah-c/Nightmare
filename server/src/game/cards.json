@@ -1,0 +1,2180 @@
+{
+  "time": [
+    {
+      "id": 1,
+      "type": "time",
+      "text": "If an opponent starts to chuckle each time you approach their gravestone, give them this card with a message from me: I'm having the last laugh! You're BANISHED.",
+      "activationTime": 0,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 2,
+      "type": "time",
+      "text": "Select a player, and whenever you catch their eye, give them a sly grin and rub your hands together. When that opponent finally asks you why you're doing that, trade them this card for all their FATE cards.",
+      "activationTime": 0,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 3,
+      "type": "time",
+      "text": "Select an opponent and stare at them until you unsettle them. When they ask why you stare, trade them this card for all their TIME cards.",
+      "activationTime": 0,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 4,
+      "type": "time",
+      "text": "Whenever an opponent approaches your gravestone, let out a nasty little laugh. If any opponent asks you why you are behaving so foolishly, trade this card for all their TIME cards.",
+      "activationTime": 0,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 5,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 30,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 6,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 45,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 7,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 60,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 8,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 90,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 9,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive a FREE turn!",
+      "activationTime": 105,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 10,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive a FREE turn!",
+      "activationTime": 110,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 11,
+      "type": "time",
+      "text": "SCREAM! Scare one opponent and receive a key.",
+      "activationTime": 119,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 12,
+      "type": "time",
+      "text": "SCREAM STOP! Scare one opponent and receive a key.",
+      "activationTime": 120,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 13,
+      "type": "time",
+      "text": "Give this card to any opponent on an X gravestone with this message from me: You are BANISHED to the BLACK HOLE.",
+      "activationTime": 240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 14,
+      "type": "time",
+      "text": "Even if it's not your turn, move to an X gravestone and be rewarded.",
+      "activationTime": 265,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 15,
+      "type": "time",
+      "text": "If you are on an X gravestone, move one stone forward - even if it's not your turn!",
+      "activationTime": 270,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 16,
+      "type": "time",
+      "text": "Give this card to any opponent on an X gravestone with this message from me: X marks the spot. You are BANISHED to the BLACK HOLE.",
+      "activationTime": 330,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 17,
+      "type": "time",
+      "text": "Give this to any opponent on a CHANCE gravestone with a message from me: You are BANISHED to the BLACK HOLE!",
+      "activationTime": 330,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 18,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, toss the coin: Heads: You are released and receive a key. Tails: Stay BANISHED!",
+      "activationTime": 330,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 19,
+      "type": "time",
+      "text": "Even if it's not your turn, you will move to the nearest CHANCE gravestone where you will be given a chance!",
+      "activationTime": 340,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 20,
+      "type": "time",
+      "text": "Give this card to any player who succeeds in rolling their number with this message from me: You are BANISHED to the BLACK HOLE!",
+      "activationTime": 360,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 21,
+      "type": "time",
+      "text": "If you have just been asked to roll your number you can have another FREE turn to try and succeed in that task.",
+      "activationTime": 360,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 22,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 360,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 23,
+      "type": "time",
+      "text": "Give this card to any player who succeeds in rolling their number with this message from me: Return the key!",
+      "activationTime": 360,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 24,
+      "type": "time",
+      "text": "SCREAM STOP! The opponents you scare must give you all their TIME cards.",
+      "activationTime": 390,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 25,
+      "type": "time",
+      "text": "If any opponent screams, give them this card with a message from me: You are BANISHED to the BLACK HOLE… Where you'll be seen but not heard.",
+      "activationTime": 390,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 26,
+      "type": "time",
+      "text": "Give this card to the player who rolled the highest number and received a key. It has a message from me: YOU'RE BANISHED!",
+      "activationTime": 510,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 27,
+      "type": "time",
+      "text": "Give this card to the player who rolled the lowest number. It has a message from me: On second thoughts… YOU'RE BANISHED!",
+      "activationTime": 510,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 28,
+      "type": "time",
+      "text": "Give this card to any opponent with this message from me: You are BANISHED to the BLACK HOLE!",
+      "activationTime": 510,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 29,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 540,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 30,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 660,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 31,
+      "type": "time",
+      "text": "Give one of your opponents this card with a message from me: You are BANISHED to the BLACK HOLE just for the hell of it!",
+      "activationTime": 705,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 32,
+      "type": "time",
+      "text": "Even if it's not your turn, you will move to the closest X gravestone for a reward.",
+      "activationTime": 710,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 33,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 745,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 34,
+      "type": "time",
+      "text": "Take all the Chosen One's TIME cards and give it this message from me: All will be revealed in time.",
+      "activationTime": 795,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 35,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their FATE cards.",
+      "activationTime": 835,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 36,
+      "type": "time",
+      "text": "If any opponent screams, give them this card with a message from me: You are BANISHED to the BLACK HOLE where will learn that silence is golden.",
+      "activationTime": 930,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 37,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must miss one turn.",
+      "activationTime": 930,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 38,
+      "type": "time",
+      "text": "SCREAM STOP! The opponents you scare must give you all their TIME cards.",
+      "activationTime": 930,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 39,
+      "type": "time",
+      "text": "SCREAM STOP! The opponents you scare must give you all their FATE cards.",
+      "activationTime": 931,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 40,
+      "type": "time",
+      "text": "Give this card to the Chosen One with this message from me: You are BANISHED to the BLACK HOLE just for the hell of it.",
+      "activationTime": 950,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 41,
+      "type": "time",
+      "text": "If you are BANISHED to the BLACK HOLE give this card to any opponent and they must trade places with you. Move your mark to the stone they occupy and they will move theirs to the BLACK HOLE - A fair swap don't you think?",
+      "activationTime": 990,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 42,
+      "type": "time",
+      "text": "Wait for your turn to come around and then waste some time before you take it. Whose turn is next? I hope it's yours.",
+      "activationTime": 1020,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 43,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 1020,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 44,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 2 FREE turns.",
+      "activationTime": 1020,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 45,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 1065,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 46,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 2 FREE turns.",
+      "activationTime": 1065,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 47,
+      "type": "time",
+      "text": "Wait for your turn to come around but then don't roll the dice until I return. Whose turn is next? I hope it's yours!",
+      "activationTime": 1080,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 48,
+      "type": "time",
+      "text": "Wait for your turn to come around and when you have the dice I'd like you to stand up and get ready to ANSWER ME, for I am coming with a RICH reward!",
+      "activationTime": 1080,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 49,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 2 FREE turns.",
+      "activationTime": 1080,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 50,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 1110,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 51,
+      "type": "time",
+      "text": "Watch and wait for the Chosen One to be called. When you see the skull… SCREAM! Scare the Chosen One and it must return the key it has just received.",
+      "activationTime": 1140,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 52,
+      "type": "time",
+      "text": "Take all the Chosen One's FATE cards and give it this message from me: The time is close!",
+      "activationTime": 1140,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 53,
+      "type": "time",
+      "text": "Take all the Chosen One's TIME cards and give it this message from me: The time is very close!",
+      "activationTime": 1155,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 54,
+      "type": "time",
+      "text": "You and I are going to scare 10 year's growth off the Chosen One. Here's how: Wait for the Chosen One to leave its seat and then sneak up behind it. When you hear the words '… so I can show you MY FURY!' you will SCREAM. If you can scare the Chosen One, you can take all its TIME cards.",
+      "activationTime": 1160,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 55,
+      "type": "time",
+      "text": "You and I are going to scare 10 year's growth off the Chosen One. Here's how: Wait for the Chosen One to leave its seat and then sneak up behind it. When you hear the words '… so I can show you MY FURY!' you will SCREAM. If you can scare the Chosen One, you can take all its TIME cards.",
+      "activationTime": 1160,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 56,
+      "type": "time",
+      "text": "You and I are going to scare 10 year's growth off the Chosen One. Here's how: Wait for the Chosen One to leave its seat and then sneak up behind it. When you hear the words '… so I can show you MY FURY!' you will SCREAM. If you can scare the Chosen One, you can take its key.",
+      "activationTime": 1160,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 57,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their FATE cards.",
+      "activationTime": 1160,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 58,
+      "type": "time",
+      "text": "Take the Chosen One's FATE card and give it this message from me: Remember! The closer. The better.",
+      "activationTime": 1160,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 59,
+      "type": "time",
+      "text": "Give this card to any player with the colors PURPLE, RED or BLUE with this message from me: Do not play again until 22:00.",
+      "activationTime": 1275,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 60,
+      "type": "time",
+      "text": "Give this card to any player with the colors BLACK, WHITE or GREY with this message from me: Do not play again until 23:15.",
+      "activationTime": 1335,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 61,
+      "type": "time",
+      "text": "Wait for your turn to come around then pick up the dice and tell all opponents: The GATEKEEPER wants me to wait for him to return because he has a special reward for me!",
+      "activationTime": 1410,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 62,
+      "type": "time",
+      "text": "Even if it's not your turn, you will move to the nearest TIME gravestone.",
+      "activationTime": 1440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 63,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 1440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 64,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 1450,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 65,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their FATE cards.",
+      "activationTime": 1480,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 66,
+      "type": "time",
+      "text": "Even if it's not your turn you will move to the closest X gravestone and be rewarded!",
+      "activationTime": 1485,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 67,
+      "type": "time",
+      "text": "If any opponent just received a key give them this card with a message from me: YOU'RE BANISHED.",
+      "activationTime": 1570,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 68,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, take a key!",
+      "activationTime": 1590,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 69,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, you are now released.",
+      "activationTime": 1650,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 70,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must miss a turn.",
+      "activationTime": 1740,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 71,
+      "type": "time",
+      "text": "When the old one starts to roll the dice, you will confuse its count by repeating these numbers out loud until time's up! 12, 6, 18, 2, 20, 4, 24, 30, 54.",
+      "activationTime": 1910,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 72,
+      "type": "time",
+      "text": "As the old one tries to add up the numbers it rolls you will confuse it by repeating these numbers out loud until it runs out of time. 5. 2. 1. 3. 4. 6.",
+      "activationTime": 1915,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 73,
+      "type": "time",
+      "text": "As the old one tries to roll its old age, take all its FATE cards and give it this message from me: Don't waste time reading this old maggot.",
+      "activationTime": 1920,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 74,
+      "type": "time",
+      "text": "If you have not already been given a task to help confuse the old one, start counting out loud the seconds on the screen.",
+      "activationTime": 1930,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 75,
+      "type": "time",
+      "text": "As the old one tries to roll its age, you will help confuse it by asking these questions. What year were you born? What month were you born? What day were you born on?",
+      "activationTime": 1935,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 76,
+      "type": "time",
+      "text": "As the old one tries to roll its age, take all its TIME cards and give it this message from me: You have less than 10 seconds left minus the time it took to read this.",
+      "activationTime": 1950,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 77,
+      "type": "time",
+      "text": "Give this card to the fat one with this message from me: Hungry? Then chew this over. You're BANISHED.",
+      "activationTime": 2010,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 78,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 2090,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 79,
+      "type": "time",
+      "text": "Leave your seat and come and sit before me. The closer you get the better chance you have of being REWARDED.",
+      "activationTime": 2130,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 80,
+      "type": "time",
+      "text": "Give this card to the one who holds the most number of my keys with a message from me: Return one!",
+      "activationTime": 2200,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 81,
+      "type": "time",
+      "text": "Give this card to the one who holds the most number of my keys with a message from me: Return one!",
+      "activationTime": 2205,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 82,
+      "type": "time",
+      "text": "Take all the TIME cards from the one with the highest number and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 83,
+      "type": "time",
+      "text": "Take all the FATE cards from the one with the lowest number and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 84,
+      "type": "time",
+      "text": "Take all the young one's TIME cards and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 85,
+      "type": "time",
+      "text": "Take all the FATE cards from the old one and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 86,
+      "type": "time",
+      "text": "Take all the young one's FATE cards and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 87,
+      "type": "time",
+      "text": "Take all the TIME cards from the old one and give it this message from me: I call this fair play.",
+      "activationTime": 2235,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 88,
+      "type": "time",
+      "text": "Start to giggle insanely; if any opponent asks why you laugh, give them this card with a message from me: I'm having the last laugh! You're BANISHED!",
+      "activationTime": 2240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 89,
+      "type": "time",
+      "text": "Let out a loud, shrill laugh and if any opponent asks why, give them this card with a message from me: I'm having the last laugh! You're BANISHED!",
+      "activationTime": 2240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 90,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare is BANISHED to the BLACK HOLE.",
+      "activationTime": 2240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 91,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare is BANISHED to the BLACK HOLE.",
+      "activationTime": 2240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 92,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must miss a turn.",
+      "activationTime": 2240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 93,
+      "type": "time",
+      "text": "If any opponent screams, give them this card with a message from me: You are BANISHED to the BLACK HOLE so you can learn that silence is a virtue.",
+      "activationTime": 2340,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 94,
+      "type": "time",
+      "text": "SCREAM! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 2340,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 95,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 2353,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 96,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare is BANISHED to the BLACK HOLE.",
+      "activationTime": 2440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 97,
+      "type": "time",
+      "text": "Even if it's not your turn, you will move to the closest FATE gravestone for your fate is to be richly rewarded.",
+      "activationTime": 2440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 98,
+      "type": "time",
+      "text": "Even if it's not your turn, you will move to the closest TIME gravestone where you will be rewarded.",
+      "activationTime": 2440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 99,
+      "type": "time",
+      "text": "If you are on a TIME gravestone, you will move one stone forward. Even if it's not your turn!",
+      "activationTime": 2440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 100,
+      "type": "time",
+      "text": "Ask the young one to answer these questions or it will be BANISHED to the BLACK HOLE! How old were you 3 years ago? How old were you 5 years ago? How old were you in 1986?",
+      "activationTime": 2690,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 101,
+      "type": "time",
+      "text": "As the young one tries to roll its age, repeat these numbers out loud until the little one's time has run out. 7. 19. 12. 15. 21. 28.",
+      "activationTime": 2700,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 102,
+      "type": "time",
+      "text": "Confuse the young one as it tries to roll its age by counting out loud the seconds on the screen.",
+      "activationTime": 2700,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 103,
+      "type": "time",
+      "text": "Give this card to any opponent with an odd number with this message from me: You cannot play again until 48:00.",
+      "activationTime": 2810,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 104,
+      "type": "time",
+      "text": "Give this card to the player who holds the most number of my keys with a message from me: You are BANISHED to the BLACK HOLE.",
+      "activationTime": 2820,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 105,
+      "type": "time",
+      "text": "Give this card to any opponent with an even number with this message from me: You cannot play again until 48:20.",
+      "activationTime": 2850,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 106,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 2 FREE turns.",
+      "activationTime": 2900,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 107,
+      "type": "time",
+      "text": "When you see the full moon, SCREAM. Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 3030,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 108,
+      "type": "time",
+      "text": "Play HAVOC by taking all the old one's TIME cards and giving it this in return. NOTHING!",
+      "activationTime": 3173,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 109,
+      "type": "time",
+      "text": "Play HAVOC by taking all the old one's FATE cards and giving it this in return. NOTHING!",
+      "activationTime": 3175,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 110,
+      "type": "time",
+      "text": "Play HAVOC by giving this to the young one: MISS 2 TURNS.",
+      "activationTime": 3178,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 111,
+      "type": "time",
+      "text": "Play HAVOC by SCREAMING STOP. Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 3178,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 112,
+      "type": "time",
+      "text": "Play HAVOC by giving this to a player of your choice: YOU'RE BANISHED.",
+      "activationTime": 3180,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 113,
+      "type": "time",
+      "text": "Play HAVOC by screaming STOP. Any opponent you scare misses two turns!",
+      "activationTime": 3181,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 114,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive a FREE turn!",
+      "activationTime": 3190,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 115,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 2 FREE turns.",
+      "activationTime": 3210,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 116,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 3 FREE turns.",
+      "activationTime": 3225,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 117,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 4 FREE turns.",
+      "activationTime": 3240,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 118,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 5 FREE turns.",
+      "activationTime": 3255,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 119,
+      "type": "time",
+      "text": "Wait for your turn to come around and receive 6 FREE turns.",
+      "activationTime": 3256,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 120,
+      "type": "time",
+      "text": "Take all the Chosen One's Time cards and give it this message from me: Think you can win? I think not!",
+      "activationTime": 3295,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 121,
+      "type": "time",
+      "text": "You can release yourself from the BLACK HOLE.",
+      "activationTime": 3300,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 122,
+      "type": "time",
+      "text": "During this time you can release yourself from the BLACK HOLE if you are BANISHED.",
+      "activationTime": 3300,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 123,
+      "type": "time",
+      "text": "Take all the old one's TIME cards and give it this message from me: Now we're about to have some real fun!",
+      "activationTime": 3310,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 124,
+      "type": "time",
+      "text": "Take all the young one's TIME cards and give it this message from me: You and I are about to play for KEEPS!",
+      "activationTime": 3340,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 125,
+      "type": "time",
+      "text": "Wait for your turn to come around and then toss the coin: HEADS - Receive a key. TAILS - Lose a key.",
+      "activationTime": 3375,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 126,
+      "type": "time",
+      "text": "Give this to the player who rolled the highest number with a message from me: Do not play again until 57:30!",
+      "activationTime": 3390,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 127,
+      "type": "time",
+      "text": "Give this card to any opponent with a message from me: You cannot play again for one minute.",
+      "activationTime": 3400,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 128,
+      "type": "time",
+      "text": "SCREAM! Any opponent you scare must give you all their TIME cards.",
+      "activationTime": 3430,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 129,
+      "type": "time",
+      "text": "Give this to the player who rolled the highest number with this message from me: You are BANISHED to the BLACK HOLE.",
+      "activationTime": 3430,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 130,
+      "type": "time",
+      "text": "Give this card to any opponent with a message from me: Miss 2 turns!",
+      "activationTime": 3430,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 131,
+      "type": "time",
+      "text": "Wait for your turn to come around then take the dice and wait for me to return to place an all-or-nothing bet! Whose turn's next? I hope it's yours.",
+      "activationTime": 3430,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 132,
+      "type": "time",
+      "text": "SCREAM! If you can scare all opponents, receive a key.",
+      "activationTime": 3435,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 133,
+      "type": "time",
+      "text": "Give this card to any opponent with this message from me: You are BANISHED to the BLACK HOLE!",
+      "activationTime": 3435,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 134,
+      "type": "time",
+      "text": "Give this card to any opponent on a trail leading to NIGHTMARE. Return to your gravestone and start again.",
+      "activationTime": 3435,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 135,
+      "type": "time",
+      "text": "Give this card to any opponent on a trail leading to NIGHTMARE. Return to your gravestone and start again.",
+      "activationTime": 3435,
+      "activationFrom": true,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 136,
+      "type": "time",
+      "text": "If you are in the BLACK HOLE, receive a key and release yourself.",
+      "activationTime": 3440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 137,
+      "type": "time",
+      "text": "SCREAM! Scare just one opponent and you can take a key.",
+      "activationTime": 3440,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 138,
+      "type": "time",
+      "text": "Give this to any player who has all 6 keys with this message from me: Return to your gravestone and wait until 58:30 before playing again.",
+      "activationTime": 3480,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 139,
+      "type": "time",
+      "text": "Give this to any opponent on a trail leading to NIGHTMARE. Do not play again until 59:00.",
+      "activationTime": 3510,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 140,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 3510,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 141,
+      "type": "time",
+      "text": "Take a key but I doubt you'll have enough time to use it!",
+      "activationTime": 3515,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 142,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 3520,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 143,
+      "type": "time",
+      "text": "SCREAM STOP! Any opponent you scare is BANISHED to the BLACK HOLE.",
+      "activationTime": 3540,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 144,
+      "type": "time",
+      "text": "Take a key.",
+      "activationTime": 3540,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 145,
+      "type": "time",
+      "text": "Take a key. Enjoy it while it lasts.",
+      "activationTime": 3540,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 146,
+      "type": "time",
+      "text": "SCREAM STOP! Scare one opponent and receive a free turn.",
+      "activationTime": 3585,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 147,
+      "type": "time",
+      "text": "SCREAM! Scare one opponent and receive a free turn.",
+      "activationTime": 3585,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 148,
+      "type": "time",
+      "text": "SCREAM STOP! Scare one opponent and receive a key.",
+      "activationTime": 3585,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 149,
+      "type": "time",
+      "text": "SCREAM! Scare one opponent and receive a free turn.",
+      "activationTime": 3585,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 150,
+      "type": "time",
+      "text": "SCREAM! Scare one opponent and receive a key.",
+      "activationTime": 3585,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 151,
+      "type": "time",
+      "text": "Give this to any opponent on a trail leading to NIGHTMARE. Miss a turn.",
+      "activationTime": 3590,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 152,
+      "type": "time",
+      "text": "Collect all your remaining keys and receive 2 FREE turns! Hurry.",
+      "activationTime": 3590,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": true
+    },
+    {
+      "id": 153,
+      "type": "time",
+      "text": "SCREAM! Just for the hell of it.",
+      "activationTime": 3599,
+      "activationFrom": false,
+      "activationAny": false,
+      "returnsToBack": false
+    },
+    {
+      "id": 154,
+      "type": "time",
+      "text": "An opponent fails to answer me YES! MY GATEKEEPER. Take all of their TIME and FATE cards and give them this with a message from me: You disobeyed.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": false
+    },
+    {
+      "id": 155,
+      "type": "time",
+      "text": "If any opponent looks like winning, take special care of them. Give them this card with a message from me: Think you can win? I think not, now that you are BANISHED to the BLACK HOLE!",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": false
+    },
+    {
+      "id": 156,
+      "type": "time",
+      "text": "An opponent fails to answer me YES! MY GATEKEEPER. Take all of their TIME and FATE cards and give them this with a message from me: You disobeyed.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": false
+    },
+    {
+      "id": 157,
+      "type": "time",
+      "text": "An opponent fails to answer me YES! MY GATEKEEPER. Take all of their TIME and FATE cards and give them this with a message from me: You disobeyed.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": false
+    },
+    {
+      "id": 158,
+      "type": "time",
+      "text": "An opponent comes close to NIGHTMARE, give them this card and that's as close as they are going to come because they must return to their gravestone.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": true
+    },
+    {
+      "id": 159,
+      "type": "time",
+      "text": "An opponent has collected all 6 keys give them this card with a message from me: Return a key.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": false
+    },
+    {
+      "id": 160,
+      "type": "time",
+      "text": "Do anything to scare anybody. Frighten them for me and I'll give you a key. But return this card to the back of the pack once the job's done.",
+      "activationTime": null,
+      "activationFrom": false,
+      "activationAny": true,
+      "returnsToBack": true
+    }
+  ],
+  "fate": [
+    {
+      "id": 1,
+      "type": "fate",
+      "text": "If you are number 1 and The Gatekeeper demands you roll a 1 before you play again, this card gives you 1 Free turn.",
+      "returnsToBack": false
+    },
+    {
+      "id": 2,
+      "type": "fate",
+      "text": "If you are number 2 and The Gatekeeper demands you roll a 2 before you play again, this card gives you 2 Free turns.",
+      "returnsToBack": false
+    },
+    {
+      "id": 3,
+      "type": "fate",
+      "text": "If you are number 3 and The Gatekeeper demands you roll a 3 before you play again, this card gives you 3 Free turns.",
+      "returnsToBack": false
+    },
+    {
+      "id": 4,
+      "type": "fate",
+      "text": "If you are number 4 and The Gatekeeper demands you roll a 4 before you play again, this card gives you 4 Free turns.",
+      "returnsToBack": false
+    },
+    {
+      "id": 5,
+      "type": "fate",
+      "text": "If you are number 5 and The Gatekeeper demands you roll a 5 before you play again, this card gives you 5 Free turns.",
+      "returnsToBack": false
+    },
+    {
+      "id": 6,
+      "type": "fate",
+      "text": "If you are number 6 and The Gatekeeper demands you roll a 6 before you play again, this card gives you 6 Free turns.",
+      "returnsToBack": false
+    },
+    {
+      "id": 7,
+      "type": "fate",
+      "text": "If you land on ANNE DE CHANTRAINE'S gravestone, receive a Free turn and flee from the witch before she can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 8,
+      "type": "fate",
+      "text": "If you land on ELIZABETH BATHORY'S gravestone, receive a Free turn and flee from the vampire before she can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 9,
+      "type": "fate",
+      "text": "If you land on KHUFU'S gravestone, receive a Free turn and flee from the mummy before it can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 10,
+      "type": "fate",
+      "text": "If you land on BARON SAMEDI'S gravestone, receive a Free turn and flee from the zombie before it can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 11,
+      "type": "fate",
+      "text": "If you land on HELLIN'S gravestone, receive a Free turn and flee from the poltergeist before it can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 12,
+      "type": "fate",
+      "text": "If you land on GEVAUDAN'S gravestone, receive a Free turn and flee from the werewolf before it can harm you.",
+      "returnsToBack": false
+    },
+    {
+      "id": 13,
+      "type": "fate",
+      "text": "BARON SAMEDI cannot harm you if you land on the zombie's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 14,
+      "type": "fate",
+      "text": "HELLIN cannot harm you if you land on the poltergeist's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 15,
+      "type": "fate",
+      "text": "ANNE DE CHANTRAINE cannot harm you if you land on the witch's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 16,
+      "type": "fate",
+      "text": "ELIZABETH BATHORY cannot harm you if you land on the vampire's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 17,
+      "type": "fate",
+      "text": "KHUFU cannot harm you if you land on the mummy's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 18,
+      "type": "fate",
+      "text": "GEVAUDAN cannot harm you if you land on the werewolf's gravestone.",
+      "returnsToBack": false
+    },
+    {
+      "id": 19,
+      "type": "fate",
+      "text": "Use this card to release yourself from the Black Hole, then pass it to the closest player to you on the board.",
+      "returnsToBack": false
+    },
+    {
+      "id": 20,
+      "type": "fate",
+      "text": "Use this card to release yourself from the Black Hole, then pass it to the closest player to you on the board.",
+      "returnsToBack": false
+    },
+    {
+      "id": 21,
+      "type": "fate",
+      "text": "Use this card to release yourself from the Black Hole, then return it to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 22,
+      "type": "fate",
+      "text": "Use this card to release yourself from the Black Hole, then return it to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 23,
+      "type": "fate",
+      "text": "Use this card to release yourself from the Black Hole, then return it to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 24,
+      "type": "fate",
+      "text": "Toss the coin. HEADS: Receive a key. TAILS: Return card to back of pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 25,
+      "type": "fate",
+      "text": "If BARON SAMEDI lands on your gravestone, toss the coin. HEADS: Take all the zombie's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "baron_samedi"
+    },
+    {
+      "id": 26,
+      "type": "fate",
+      "text": "If ELIZABETH BATHORY lands on your gravestone, toss the coin. HEADS: Take all the vampire's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "elizabeth_bathory"
+    },
+    {
+      "id": 27,
+      "type": "fate",
+      "text": "If GEVAUDAN lands on your gravestone, toss the coin. HEADS: Take all the werewolf's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "gevaudan"
+    },
+    {
+      "id": 28,
+      "type": "fate",
+      "text": "If KHUFU lands on your gravestone, toss the coin. HEADS: Take all the mummy's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "khufu"
+    },
+    {
+      "id": 29,
+      "type": "fate",
+      "text": "If ANNE DE CHANTRAINE lands on your gravestone, toss the coin. HEADS: Take all the witch's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "anne_de_chantraine"
+    },
+    {
+      "id": 30,
+      "type": "fate",
+      "text": "If HELLIN lands on your gravestone, toss the coin. HEADS: Take all the poltergeist's Fate cards. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "hellin"
+    },
+    {
+      "id": 31,
+      "type": "fate",
+      "text": "If KHUFU lands on your gravestone, toss the coin. HEADS: The mummy is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "khufu"
+    },
+    {
+      "id": 32,
+      "type": "fate",
+      "text": "If BARON SAMEDI lands on your gravestone, toss the coin. HEADS: The zombie is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "baron_samedi"
+    },
+    {
+      "id": 33,
+      "type": "fate",
+      "text": "If HELLIN lands on your gravestone, toss the coin. HEADS: The poltergeist is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "hellin"
+    },
+    {
+      "id": 34,
+      "type": "fate",
+      "text": "If ELIZABETH BATHORY lands on your gravestone, toss the coin. HEADS: The vampire is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "elizabeth_bathory"
+    },
+    {
+      "id": 35,
+      "type": "fate",
+      "text": "If GEVAUDAN lands on your gravestone, toss the coin. HEADS: The werewolf is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "gevaudan"
+    },
+    {
+      "id": 36,
+      "type": "fate",
+      "text": "If ANNE DE CHANTRAINE lands on your gravestone, toss the coin. HEADS: The witch is Banished to the Black Hole. TAILS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "anne_de_chantraine"
+    },
+    {
+      "id": 37,
+      "type": "fate",
+      "text": "If HELLIN lands on your gravestone, toss the coin. TAILS: Take all the poltergeist's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "hellin"
+    },
+    {
+      "id": 38,
+      "type": "fate",
+      "text": "If KHUFU lands on your gravestone, toss the coin. TAILS: Take all the mummy's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "khufu"
+    },
+    {
+      "id": 39,
+      "type": "fate",
+      "text": "If ANNE DE CHANTRAINE lands on your gravestone, toss the coin. TAILS: Take all the witch's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "anne_de_chantraine"
+    },
+    {
+      "id": 40,
+      "type": "fate",
+      "text": "If BARON SAMEDI lands on your gravestone, toss the coin. TAILS: Take all the zombie's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "baron_samedi"
+    },
+    {
+      "id": 41,
+      "type": "fate",
+      "text": "If ELIZABETH BATHORY lands on your gravestone, toss the coin. TAILS: Take all the vampire's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "elizabeth_bathory"
+    },
+    {
+      "id": 42,
+      "type": "fate",
+      "text": "If GEVAUDAN lands on your gravestone, toss the coin. TAILS: Take all the werewolf's Chance cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "gevaudan"
+    },
+    {
+      "id": 43,
+      "type": "fate",
+      "text": "If HELLIN lands on your gravestone, toss the coin. TAILS: Take all the poltergeist's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "hellin"
+    },
+    {
+      "id": 44,
+      "type": "fate",
+      "text": "If KHUFU lands on your gravestone, toss the coin. TAILS: Take all the mummy's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "khufu"
+    },
+    {
+      "id": 45,
+      "type": "fate",
+      "text": "If ANNE DE CHANTRAINE lands on your gravestone, toss the coin. TAILS: Take all the witch's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "anne_de_chantraine"
+    },
+    {
+      "id": 46,
+      "type": "fate",
+      "text": "If BARON SAMEDI lands on your gravestone, toss the coin. TAILS: Take all the zombie's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "baron_samedi"
+    },
+    {
+      "id": 47,
+      "type": "fate",
+      "text": "If ELIZABETH BATHORY lands on your gravestone, toss the coin. TAILS: Take all the vampire's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "elizabeth_bathory"
+    },
+    {
+      "id": 48,
+      "type": "fate",
+      "text": "If GEVAUDAN lands on your gravestone, toss the coin. TAILS: Take all the werewolf's Time cards. HEADS: Return card to back of pack.",
+      "returnsToBack": true,
+      "targetCharacter": "gevaudan"
+    }
+  ],
+  "chance": [
+    {
+      "id": 1,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 1,
+      "text": "If you are the werewolf GEVAUDAN and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 2,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 2,
+      "text": "If you are the werewolf GEVAUDAN and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 3,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 3,
+      "text": "If you are the werewolf GEVAUDAN and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 4,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 4,
+      "text": "If you are the werewolf GEVAUDAN and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 5,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 5,
+      "text": "If you are the werewolf GEVAUDAN and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 6,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "gevaudan",
+      "number": 6,
+      "text": "If you are the werewolf GEVAUDAN and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 7,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 1,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 8,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 2,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 9,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 3,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 10,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 4,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 11,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 5,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 12,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "elizabeth_bathory",
+      "number": 6,
+      "text": "If you are the vampire ELIZABETH BATHORY and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 13,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 1,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 14,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 2,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 15,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 3,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 16,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 4,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 17,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 5,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 18,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "anne_de_chantraine",
+      "number": 6,
+      "text": "If you are the witch ANNE DE CHANTRAINE and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 19,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 1,
+      "text": "If you are the zombie BARON SAMEDI and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 20,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 2,
+      "text": "If you are the zombie BARON SAMEDI and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 21,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 3,
+      "text": "If you are the zombie BARON SAMEDI and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 22,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 4,
+      "text": "If you are the zombie BARON SAMEDI and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 23,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 5,
+      "text": "If you are the zombie BARON SAMEDI and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 24,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "baron_samedi",
+      "number": 6,
+      "text": "If you are the zombie BARON SAMEDI and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 25,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 1,
+      "text": "If you are the poltergeist HELLIN and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 26,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 2,
+      "text": "If you are the poltergeist HELLIN and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 27,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 3,
+      "text": "If you are the poltergeist HELLIN and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 28,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 4,
+      "text": "If you are the poltergeist HELLIN and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 29,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 5,
+      "text": "If you are the poltergeist HELLIN and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 30,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "hellin",
+      "number": 6,
+      "text": "If you are the poltergeist HELLIN and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 31,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 1,
+      "text": "If you are the mummy KHUFU and your number is 1, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 32,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 2,
+      "text": "If you are the mummy KHUFU and your number is 2, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 33,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 3,
+      "text": "If you are the mummy KHUFU and your number is 3, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 34,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 4,
+      "text": "If you are the mummy KHUFU and your number is 4, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 35,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 5,
+      "text": "If you are the mummy KHUFU and your number is 5, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 36,
+      "type": "chance",
+      "subtype": "character_number",
+      "character": "khufu",
+      "number": 6,
+      "text": "If you are the mummy KHUFU and your number is 6, toss the coin. HEADS: Receive a key. TAILS: Return card to the back of the pack.",
+      "returnsToBack": true
+    },
+    {
+      "id": 37,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 38,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 39,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 40,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 41,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 42,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 43,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 44,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 45,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 46,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 47,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "back",
+      "text": "Key half: BACK END",
+      "returnsToBack": true
+    },
+    {
+      "id": 48,
+      "type": "chance",
+      "subtype": "key_half",
+      "half": "front",
+      "text": "Key half: FRONT END",
+      "returnsToBack": true
+    }
+  ]
+}

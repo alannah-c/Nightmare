@@ -1,0 +1,57 @@
+.player-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.player-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #111;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+}
+
+.player-list-item.active-turn {
+  border-color: #8b0000;
+  background: #1a0505;
+}
+
+.player-list-item.in-black-hole {
+  opacity: 0.5;
+}
+
+.player-list-item.eliminated {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.player-list-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.player-list-info {
+  flex: 1;
+}
+
+.player-list-name {
+  font-size: 0.85rem;
+  color: #ddd;
+}
+
+.player-list-meta {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+.turn-indicator {
+  color: #8b0000;
+  font-size: 0.8rem;
+}

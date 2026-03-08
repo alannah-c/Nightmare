@@ -1,0 +1,54 @@
+.host-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.host-panel {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.host-player-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.host-player-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.host-player-name {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.host-btns {
+  display: flex;
+  gap: 4px;
+}
+
+.host-btns button {
+  background: #222;
+  border: 1px solid #333;
+  color: #888;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.host-btns button:hover {
+  background: #333;
+  color: #ddd;
+}

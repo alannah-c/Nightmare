@@ -1,0 +1,74 @@
+.scream-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 900;
+  animation: scream-pulse 0.2s ease-out;
+}
+
+@keyframes scream-pulse {
+  0% { background: rgba(139, 0, 0, 0.9); }
+  100% { background: rgba(0, 0, 0, 0.85); }
+}
+
+.scream-content {
+  text-align: center;
+}
+
+.scream-title {
+  font-size: 3rem;
+  color: #ff2200;
+  text-shadow: 0 0 40px rgba(255, 34, 0, 0.7);
+  letter-spacing: 0.3em;
+  animation: scream-shake 0.3s ease-in-out 3;
+}
+
+@keyframes scream-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+.scream-timer {
+  font-size: 2rem;
+  color: #d4a017;
+  font-family: monospace;
+}
+
+.scream-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.btn-scared {
+  background: #8b0000;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-scared:hover {
+  background: #a50000;
+}
+
+.btn-not-scared {
+  background: #333;
+  color: #e0e0e0;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-not-scared:hover {
+  background: #444;
+}

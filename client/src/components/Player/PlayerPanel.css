@@ -1,0 +1,127 @@
+.player-panel {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 360px;
+  width: 100%;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.player-color-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.player-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.player-character {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.player-number {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.player-keys {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.key {
+  font-size: 1.2rem;
+  opacity: 0.2;
+}
+
+.key.key-held {
+  opacity: 1;
+}
+
+.key-count {
+  margin-left: 0.5rem;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.player-status.banished {
+  background: #1a0000;
+  border: 1px solid #8b0000;
+  color: #ff4444;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}
+
+.player-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.player-hand h4 {
+  margin: 0 0 0.5rem;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.card-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.card-group-label {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #8b0000;
+}
+
+.card-time { border-left: 3px solid #d4a017; }
+.card-fate { border-left: 3px solid #9b59b6; }
+.card-chance { border-left: 3px solid #2ecc71; }
+
+.card-text {
+  font-size: 0.75rem;
+  color: #bbb;
+  line-height: 1.3;
+}
+
+.key-half {
+  font-size: 0.8rem;
+  color: #d4a017;
+  margin-top: 4px;
+}

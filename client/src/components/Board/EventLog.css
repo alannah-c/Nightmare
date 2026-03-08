@@ -1,0 +1,43 @@
+.event-log {
+  background: #0d0d0d;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.event-log h4 {
+  margin: 0 0 0.5rem;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.event-log-entries {
+  max-height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.event-entry {
+  font-size: 0.75rem;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.event-time {
+  color: #555;
+  margin-right: 6px;
+  font-family: monospace;
+}
+
+.event-message {
+  color: #999;
+}
+
+.event-system .event-message { color: #888; }
+.event-action .event-message { color: #bbb; }
+.event-gatekeeper .event-message { color: #8b0000; font-weight: bold; }
+.event-nightmare .event-message { color: #d4a017; font-weight: bold; }
