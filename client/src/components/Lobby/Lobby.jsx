@@ -59,6 +59,12 @@ export function Lobby() {
     });
   }
 
+  function startTestMode() {
+    socket.emit('lobby:startTestMode', { roomId: game.roomId }, (res) => {
+      if (!res.success) alert(res.error);
+    });
+  }
+
   // Step 1: Enter name and create/join
   if (!inRoom) {
     return (
@@ -154,6 +160,16 @@ export function Lobby() {
 
       {isHost && game.players.length < 3 && (
         <p className="lobby-waiting">Need at least 3 players to start</p>
+      )}
+
+      {isHost && (
+        <div className="lobby-test-mode">
+          <p className="lobby-test-label">⚠ DEV ONLY</p>
+          <button className="btn btn-test" onClick={startTestMode}>
+            Test Mode (Solo)
+          </button>
+          <p className="lobby-test-hint">Skips player count, age &amp; fear requirements</p>
+        </div>
       )}
     </div>
   );

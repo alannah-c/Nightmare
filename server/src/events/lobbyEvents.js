@@ -92,4 +92,30 @@ export function registerLobbyEvents(io, socket) {
 
     callback({ success: true });
   });
+
+  socket.on('lobby:startTestMode', ({ roomId }, callback) => {
+    const game = roomManager.getRoom(roomId);
+    if (!game) return callback({ success: false, error: 'Room not found' });
+    if (socket.id !== game.hostId) return callback({ success: false, error: 'Only the host can start' });
+
+    // Fill in missing age/fear for all players so startGame() doesn't choke
+    for (const player of game.getAllPlayers()) {
+      if (player.age === null) game.setPlayerAge(player.id, 25);
+      if (!game.nightmareCards.some((nc) => nc.playerId === player.id)) {
+        game.submitFear(player.id, 'the unknown');
+      }
+    }
+
+    game.assignCharacters();
+    game.startGame();
+
+    for (const player of game.getAllPlayers()) {
+      io.to(player.id).emit('game:started', {
+        game: game.toJSON(),
+        hand: game.getPlayerHand(player.id),
+      });
+    }
+
+    callback({ success: true });
+  });
 }
