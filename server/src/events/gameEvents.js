@@ -63,16 +63,30 @@ export function registerGameEvents(io, socket) {
         game.banishToBlackHole(socket.id);
       }
 
-      // Landing on an opponent's named gravestone
+      // Landing on an opponent's named gravestone — trigger key powers
       if (sq.type === 'gravestone' && sq.character) {
         const owner = game.getAllPlayers().find(
           (p) => p.character && p.character.id === sq.character && p.id !== socket.id
         );
         if (owner) {
+          // Notify owner (for UI awareness)
           io.to(owner.id).emit('game:opponentOnGravestone', {
             landingPlayerId: socket.id,
             gravestoneOwner: owner.id,
           });
+
+          // Auto-resolve any key powers
+          const powerResults = game.triggerGravestonePowers(socket.id, owner.id);
+          if (powerResults.length > 0) {
+            io.to(roomId).emit('game:keyPowersTriggered', { results: powerResults });
+            // Sync hands if cards were transferred
+            for (const r of powerResults) {
+              if (r.triggered && ['steal_chance', 'steal_fate', 'steal_time'].includes(r.type)) {
+                io.to(socket.id).emit('game:handUpdated', game.getPlayerHand(socket.id));
+                io.to(owner.id).emit('game:handUpdated', game.getPlayerHand(owner.id));
+              }
+            }
+          }
         }
       }
     }

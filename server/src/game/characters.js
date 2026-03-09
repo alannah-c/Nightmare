@@ -1,97 +1,133 @@
 /**
  * The 6 Harbinger characters from the original Nightmare board game.
- * Each has a color, a named gravestone position on the board, and 6 keys.
+ *
+ * Key powers (identical for every character, received at random):
+ *   1 — Black Hole Lock:  opponent lands on your gravestone → coin HEADS → banish them to Black Hole
+ *   2 — Chance Gate:      opponent lands on your gravestone → coin TAILS → take all their Chance cards
+ *   3 — Sanctuary:        you land on an opponent's gravestone → nothing can harm you that visit
+ *   4 — Fate Gate:        opponent lands on your gravestone → coin HEADS → take all their Fate cards
+ *   5 — Time Gate:        opponent lands on your gravestone → coin TAILS → take all their Time cards
+ *   6 — Black Hole Escape: use to release yourself from the Black Hole
  */
+
+function makeKeys(charId) {
+  return [
+    {
+      id: `${charId}_1`,
+      number: 1,
+      name: 'Black Hole Lock',
+      description:
+        'If an opponent lands on your gravestone, toss the coin: HEADS — that opponent is banished to the Black Hole.',
+      power: 'gravestone_banish',
+      coinSide: 'heads',
+      trigger: 'opponent_on_my_gravestone',
+      reusable: true,
+    },
+    {
+      id: `${charId}_2`,
+      number: 2,
+      name: 'Chance Gate',
+      description:
+        'If an opponent lands on your gravestone, toss the coin: TAILS — take all that opponent\'s Chance cards.',
+      power: 'steal_chance',
+      coinSide: 'tails',
+      trigger: 'opponent_on_my_gravestone',
+      reusable: true,
+    },
+    {
+      id: `${charId}_3`,
+      number: 3,
+      name: 'Sanctuary',
+      description:
+        'If you land on an opponent\'s gravestone, nothing can harm you.',
+      power: 'sanctuary',
+      coinSide: null,
+      trigger: 'me_on_opponent_gravestone',
+      reusable: true,
+    },
+    {
+      id: `${charId}_4`,
+      number: 4,
+      name: 'Fate Gate',
+      description:
+        'If an opponent lands on your gravestone, toss the coin: HEADS — take all the opponent\'s Fate cards.',
+      power: 'steal_fate',
+      coinSide: 'heads',
+      trigger: 'opponent_on_my_gravestone',
+      reusable: true,
+    },
+    {
+      id: `${charId}_5`,
+      number: 5,
+      name: 'Time Gate',
+      description:
+        'If an opponent lands on your gravestone, toss the coin: TAILS — take all that opponent\'s Time cards.',
+      power: 'steal_time',
+      coinSide: 'tails',
+      trigger: 'opponent_on_my_gravestone',
+      reusable: true,
+    },
+    {
+      id: `${charId}_6`,
+      number: 6,
+      name: 'Black Hole Escape',
+      description: 'This key releases you from the Black Hole.',
+      power: 'black_hole_escape',
+      coinSide: null,
+      trigger: 'in_black_hole',
+      reusable: false, // consumed on use
+    },
+  ];
+}
+
 export const CHARACTERS = [
   {
     id: 'gevaudan',
     name: 'Gevaudan',
-    color: '#808080',    // grey
+    color: '#222222',    // Black
     description: 'The Werewolf',
     gravestoneIndex: 0,
-    keys: [
-      { id: 'gevaudan_1', name: 'Key 1', power: null },
-      { id: 'gevaudan_2', name: 'Key 2', power: null },
-      { id: 'gevaudan_3', name: 'Key 3', power: null },
-      { id: 'gevaudan_4', name: 'Key 4', power: null },
-      { id: 'gevaudan_5', name: 'Key 5', power: null },
-      { id: 'gevaudan_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('gevaudan'),
   },
   {
     id: 'hellin',
     name: 'Hellin',
-    color: '#ff4444',    // red
+    color: '#9933cc',    // Purple
     description: 'The Poltergeist',
     gravestoneIndex: 6,
-    keys: [
-      { id: 'hellin_1', name: 'Key 1', power: null },
-      { id: 'hellin_2', name: 'Key 2', power: null },
-      { id: 'hellin_3', name: 'Key 3', power: null },
-      { id: 'hellin_4', name: 'Key 4', power: null },
-      { id: 'hellin_5', name: 'Key 5', power: null },
-      { id: 'hellin_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('hellin'),
   },
   {
     id: 'khufu',
     name: 'Khufu',
-    color: '#d4a017',    // gold
+    color: '#cc3333',    // Red
     description: 'The Mummy',
     gravestoneIndex: 12,
-    keys: [
-      { id: 'khufu_1', name: 'Key 1', power: null },
-      { id: 'khufu_2', name: 'Key 2', power: null },
-      { id: 'khufu_3', name: 'Key 3', power: null },
-      { id: 'khufu_4', name: 'Key 4', power: null },
-      { id: 'khufu_5', name: 'Key 5', power: null },
-      { id: 'khufu_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('khufu'),
   },
   {
     id: 'baron_samedi',
     name: 'Baron Samedi',
-    color: '#9b59b6',    // purple
+    color: '#f0f0f0',    // White
     description: 'The Zombie',
     gravestoneIndex: 18,
-    keys: [
-      { id: 'baron_samedi_1', name: 'Key 1', power: null },
-      { id: 'baron_samedi_2', name: 'Key 2', power: null },
-      { id: 'baron_samedi_3', name: 'Key 3', power: null },
-      { id: 'baron_samedi_4', name: 'Key 4', power: null },
-      { id: 'baron_samedi_5', name: 'Key 5', power: null },
-      { id: 'baron_samedi_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('baron_samedi'),
   },
   {
     id: 'anne_de_chantraine',
     name: 'Anne de Chantraine',
-    color: '#ffffff',    // white
+    color: '#3366cc',    // Blue
     description: 'The Witch',
     gravestoneIndex: 24,
-    keys: [
-      { id: 'anne_de_chantraine_1', name: 'Key 1', power: null },
-      { id: 'anne_de_chantraine_2', name: 'Key 2', power: null },
-      { id: 'anne_de_chantraine_3', name: 'Key 3', power: null },
-      { id: 'anne_de_chantraine_4', name: 'Key 4', power: null },
-      { id: 'anne_de_chantraine_5', name: 'Key 5', power: null },
-      { id: 'anne_de_chantraine_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('anne_de_chantraine'),
   },
   {
     id: 'elizabeth_bathory',
     name: 'Elizabeth Bathory',
-    color: '#2ecc71',    // green
+    color: '#888888',    // Gray
     description: 'The Vampire',
     gravestoneIndex: 30,
-    keys: [
-      { id: 'elizabeth_bathory_1', name: 'Key 1', power: null },
-      { id: 'elizabeth_bathory_2', name: 'Key 2', power: null },
-      { id: 'elizabeth_bathory_3', name: 'Key 3', power: null },
-      { id: 'elizabeth_bathory_4', name: 'Key 4', power: null },
-      { id: 'elizabeth_bathory_5', name: 'Key 5', power: null },
-      { id: 'elizabeth_bathory_6', name: 'Black Hole Escape Key', power: 'black_hole_escape', reusable: true },
-    ],
+    keys: makeKeys('elizabeth_bathory'),
   },
 ];
 

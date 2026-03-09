@@ -3,7 +3,7 @@ import { useGame } from '../../context/GameContext.jsx';
 import { socket } from '../../services/socket.js';
 import './VideoPlayer.css';
 
-const YOUTUBE_VIDEO_ID = 'uchUe52-j74';
+const YOUTUBE_VIDEO_ID = 'uXDE8dFZV10';
 
 export function VideoPlayer() {
   const game = useGame();

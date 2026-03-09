@@ -51,13 +51,32 @@ export function PlayerPanel() {
       </div>
 
       <div className="player-keys">
-        {[...Array(6)].map((_, i) => (
-          <span key={i} className={`key ${i < localPlayer.keyCount ? 'key-held' : ''}`}>
-            🗝
-          </span>
-        ))}
+        {[...Array(6)].map((_, i) => {
+          const keyData = game.hand.keys[i];
+          return (
+            <span
+              key={i}
+              className={`key ${i < localPlayer.keyCount ? 'key-held' : ''}`}
+              title={keyData ? `${keyData.name}: ${keyData.description}` : 'Locked'}
+            >
+              🗝
+            </span>
+          );
+        })}
         <span className="key-count">{localPlayer.keyCount}/6</span>
       </div>
+
+      {game.hand.keys.length > 0 && (
+        <div className="player-key-powers">
+          <div className="key-powers-label">Your Key Powers:</div>
+          {game.hand.keys.map((k) => k && k.name ? (
+            <div key={k.id} className="key-power-item">
+              <span className="key-power-name">🗝 {k.name}</span>
+              <span className="key-power-desc">{k.description}</span>
+            </div>
+          ) : null)}
+        </div>
+      )}
 
       {localPlayer.inBlackHole && (
         <div className="player-status banished">BANISHED TO THE BLACK HOLE</div>
@@ -84,11 +103,22 @@ export function PlayerPanel() {
           {game.hand.time.length > 0 && (
             <div className="card-group">
               <div className="card-group-label">Time ({game.hand.time.length})</div>
-              {game.hand.time.map((card) => (
-                <div key={`t${card.id}`} className="card card-time" onClick={() => playCard(card.id)}>
-                  <span className="card-text">{card.text}</span>
-                </div>
-              ))}
+              {game.hand.time.map((card) => {
+                const t = card.activationTime || 0;
+                const mm = String(Math.floor(t / 60)).padStart(2, '0');
+                const ss = String(t % 60).padStart(2, '0');
+                const timeLabel = card.activationAny
+                  ? 'ANYTIME'
+                  : card.activationFrom
+                  ? `FROM ${mm}:${ss}`
+                  : `AT ${mm}:${ss}`;
+                return (
+                  <div key={`t${card.id}`} className="card card-time" onClick={() => playCard(card.id)}>
+                    <span className="card-time-label">{timeLabel}</span>
+                    <span className="card-text">{card.text}</span>
+                  </div>
+                );
+              })}
             </div>
           )}
           {game.hand.fate.length > 0 && (

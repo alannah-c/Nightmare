@@ -37,7 +37,7 @@ export class GameState {
     // Video sync
     this.videoTimestamp = 0;   // current video time in seconds (from host)
     this.videoStartedAt = null; // Date.now() when video was started
-    this.gameDurationSec = 3600; // 60 minutes
+    this.gameDurationSec = 3905; // Video length: 1:05:05 — game ends when video ends
 
     // Special designations
     this.chosenOneId = null;
@@ -290,18 +290,22 @@ export class GameState {
 
   giveKey(playerId, count = 1) {
     const player = this.getPlayer(playerId);
-    if (!player) return;
+    if (!player) return 0;
 
     const char = player.character;
-    const allKeys = char.keys;
-    let given = 0;
 
-    for (const key of allKeys) {
+    // Collect unearned keys and shuffle them so keys are received at random
+    const available = char.keys.filter((k) => !player.keys.has(k.id));
+    for (let i = available.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [available[i], available[j]] = [available[j], available[i]];
+    }
+
+    let given = 0;
+    for (const key of available) {
       if (given >= count) break;
-      if (!player.keys.has(key.id)) {
-        player.keys.add(key.id);
-        given++;
-      }
+      player.keys.add(key.id);
+      given++;
     }
 
     return given;
@@ -450,6 +454,84 @@ export class GameState {
 
   flipCoin() {
     return Math.random() < 0.5 ? 'heads' : 'tails';
+  }
+
+  // ─── Key Power Triggers ──────────────────────────────────────
+
+  /**
+   * Called when `landingPlayerId` steps onto `ownerPlayerId`'s named gravestone.
+   * Returns an array of power-trigger result objects for broadcasting.
+   */
+  triggerGravestonePowers(landingPlayerId, ownerPlayerId) {
+    const owner = this.getPlayer(ownerPlayerId);
+    const lander = this.getPlayer(landingPlayerId);
+    if (!owner || !lander) return [];
+
+    const results = [];
+
+    // Key 3 — Sanctuary: if the landing player holds this key they are protected
+    const landerSanctuaryKey = lander.character?.keys.find(
+      (k) => lander.keys.has(k.id) && k.power === 'sanctuary'
+    );
+    if (landerSanctuaryKey) {
+      this.addEvent(
+        'keys',
+        `${lander.name}'s Sanctuary key activates — they cannot be harmed on ${owner.name}'s gravestone!`
+      );
+      results.push({ type: 'sanctuary', protected: true, landingPlayerId });
+      return results; // no further effects apply
+    }
+
+    // Keys 1, 2, 4, 5 — owner's gravestone powers
+    const GRAVESTONE_POWERS = ['gravestone_banish', 'steal_chance', 'steal_fate', 'steal_time'];
+    for (const key of (owner.character?.keys || [])) {
+      if (!owner.keys.has(key.id)) continue;
+      if (!GRAVESTONE_POWERS.includes(key.power)) continue;
+
+      const flip = this.flipCoin();
+      const triggered = flip === key.coinSide;
+
+      this.addEvent(
+        'keys',
+        `${owner.name}'s ${key.name} key activates! Coin flip: ${flip.toUpperCase()} — ${
+          triggered ? 'TRIGGERED!' : 'no effect.'
+        }`
+      );
+
+      const base = { type: key.power, keyName: key.name, flip, coinSide: key.coinSide, triggered, ownerId: ownerPlayerId, landingPlayerId };
+
+      if (triggered) {
+        switch (key.power) {
+          case 'gravestone_banish': {
+            this.banishToBlackHole(landingPlayerId);
+            results.push({ ...base });
+            break;
+          }
+          case 'steal_chance': {
+            const cards = this.transferCards(landingPlayerId, ownerPlayerId, 'chance');
+            this.addEvent('keys', `${owner.name} took ${cards.length} Chance card(s) from ${lander.name}!`);
+            results.push({ ...base, cardCount: cards.length });
+            break;
+          }
+          case 'steal_fate': {
+            const cards = this.transferCards(landingPlayerId, ownerPlayerId, 'fate');
+            this.addEvent('keys', `${owner.name} took ${cards.length} Fate card(s) from ${lander.name}!`);
+            results.push({ ...base, cardCount: cards.length });
+            break;
+          }
+          case 'steal_time': {
+            const cards = this.transferCards(landingPlayerId, ownerPlayerId, 'time');
+            this.addEvent('keys', `${owner.name} took ${cards.length} Time card(s) from ${lander.name}!`);
+            results.push({ ...base, cardCount: cards.length });
+            break;
+          }
+        }
+      } else {
+        results.push({ ...base });
+      }
+    }
+
+    return results;
   }
 
   // ─── SCREAM Mechanic ────────────────────────────────────────
@@ -699,11 +781,19 @@ export class GameState {
     const player = this.getPlayer(playerId);
     if (!player) return null;
 
+    // Enrich key data with power descriptions for the client
+    const keyDetails = Array.from(player.keys).map((keyId) => {
+      const key = player.character?.keys.find((k) => k.id === keyId);
+      return key
+        ? { id: keyId, name: key.name, power: key.power, description: key.description, coinSide: key.coinSide }
+        : { id: keyId };
+    });
+
     return {
       time: player.cards.time,
       fate: player.cards.fate,
       chance: player.cards.chance,
-      keys: Array.from(player.keys),
+      keys: keyDetails,
       keyHalves: player.keyHalves,
     };
   }

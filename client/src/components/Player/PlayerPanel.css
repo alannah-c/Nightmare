@@ -114,6 +114,16 @@
 .card-fate { border-left: 3px solid #9b59b6; }
 .card-chance { border-left: 3px solid #2ecc71; }
 
+.card-time-label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: #d4a017;
+  letter-spacing: 0.05em;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
 .card-text {
   font-size: 0.75rem;
   color: #bbb;
@@ -124,4 +134,41 @@
   font-size: 0.8rem;
   color: #d4a017;
   margin-top: 4px;
+}
+
+/* Key power details panel */
+.player-key-powers {
+  background: #0d0d0d;
+  border: 1px solid #2a1a0a;
+  border-radius: 4px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.key-powers-label {
+  font-size: 0.7rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 2px;
+}
+
+.key-power-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.key-power-name {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #d4a017;
+}
+
+.key-power-desc {
+  font-size: 0.7rem;
+  color: #888;
+  line-height: 1.3;
 }
